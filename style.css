@@ -1,0 +1,324 @@
+@font-face {
+	font-family: "RobotoSlab";
+	src: url (fonts/RobotoSlab-Regular.ttf);
+}
+@font-face {
+	font-family: "Montserrat";
+	src: url (fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "fontello";
+  src: url(font/fontello.eot);
+  src: url(font/fontello.eot) format('embedded-opentype'),
+  url(font/fontello.woff) format('woff'),
+  url(font/fontello.ttf) format('truetype'),
+  url(font/fontello.svg) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+	width: 1600px;
+}
+.welcome,
+.about_us,
+.latest_works,
+.recent_blog_posts,
+.partners {
+	width: 100%;
+	box-sizing: content-box;
+}
+
+.head {
+	
+	width: 1600px;
+	height: 100px;
+	float: left;
+	position: fixed;
+	z-index: 10;
+}
+.head span {
+	font-family: Montserrat;
+	color:  #ffffff;
+	font-size: 24px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 36px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin: 15px 10px 10px	229px;
+	display: inline-block;
+}
+.navigation {
+	display: inline-block;
+	float: right;
+	
+	margin-right: 230px;
+}
+.navigation ul li {
+	display: inline-block;
+	float: left;
+	margin: 0 20px 0 20px;
+	width: 100px;
+	height: 50px;
+	}
+.navigation ul li a {
+	font-family: Montserrat;
+	color:  orange;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 20px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	text-decoration: none;
+	display: block;
+
+}
+.navigation ul li a:hover {
+	outline: 1px solid red;
+	font-size: 20px;
+}
+
+.welcome {
+	width: 1600px;
+	height: 900px;
+	position: relative;
+}
+.welcome video {
+	display: block;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+.welcome p {
+	font-family: RobotoSlab, Arial;
+	color:  #ffffff;
+	font-size: 48px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 60px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	display: block;
+	position: absolute;
+	top: 323px;
+	left: 340px;
+}
+.section_title_about {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: RobotoSlab;
+	color:  #555555;
+	font-size: 16px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+}
+.line_down {
+	display: block;
+	margin: 0 auto;
+	height: 5px;
+}
+.service {
+	padding: 10px 217px 10px 217px;
+}
+.service_container {
+	width: 345px;
+	margin: 10px 20px 20px 10px;
+	display: inline-block;
+}
+.service_img {
+	width: 90px;
+	display: block;
+	margin: 0 auto;
+}
+.service_container span {
+	font-family: Montserrat;
+	color:  #555555;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.service_container p {
+	font-family: RobotoSlab;
+	color:  #555555;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	display: block;
+	text-align: center;
+}
+.get_in_touch_bar {
+	height: 369px;
+	
+	background: linear-gradient(to top, rgba(255,255,255,0.5) 0%, rgba(246,246,246,1) 100%, rgba(237,237,237,1) 100%),
+							url(img/sturtup-2.jpg) 46% 40% no-repeat, 
+ 	            url(img/sturtup-3.jpg) 0% 30% no-repeat, 
+              url(img/sturtup-4.jpg) 100% 30% no-repeat;
+	background-size: cover, 38%, 36%, 35%; /* Меняем масштаб */
+	width: 100%;
+	box-sizing: content-box;
+}
+
+.partners {
+	background-color: #f8f8f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.partners_brands {
+	min-height: 30%;
+	width: 52%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+.parners_brands_img {
+	display: inline-block;
+	width: 141px;
+	margin: 10px 10px 10px 10px;
+}
+.section_title {
+	font-family: Montserrat, Arial;
+	color:  #555555;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+	margin: 100px 10px 10px 10px;
+	display: block;
+	text-transform: uppercase; 
+}
+.get_in_touch {
+	width: 100%;
+	box-sizing: content-box;
+}
+.contacts {
+	width: 232px;
+	margin: 50px 50px 50px 230px;
+	display: inline-block;
+
+}
+.icon-pin,
+.icon-mobile,
+.icon-mail {
+	font-size: 30px;
+	color: red;
+}
+.contacts_title {
+	font-size: 16px;
+	color: red;
+	text-transform: uppercase;
+}
+.contacts_detail {
+	font-size: 14px;
+	margin-left: 45px;
+}
+
+.footer_sturtup {
+	background-color: #c0301c;
+	height: 307px;
+	width: 100%;
+	box-sizing: content-box;
+}
+.forms {
+	width: 730px;
+	margin: 50px 50px 50px 163px;
+	display: inline-block;
+}
+#name {
+	margin: 10px 10px 10px 10px;
+	line-height: 40px;
+	border-width: 1px;
+	border-color:  #555555;
+	border-style: solid;
+	width: 320px;
+	height: 42px;
+}
+
+#email {
+	margin: 10px 10px 10px 10px;
+	line-height: 40px;
+	border-width: 1px;
+	border-color:  #555555;
+	border-style: solid;
+	width: 320px;
+	height: 42px;
+}
+#subject {
+	margin: 10px 10px 10px 10px;
+	line-height: 40px;
+	border-width: 1px;
+	border-color:  #555555;
+	border-style: solid;
+	width: 320px;
+	height: 42px;
+}
+
+#company_name {
+	margin: 10px 10px 10px 10px;
+	line-height: 40px;
+	border-width: 1px;
+	border-color:  #555555;
+	border-style: solid;
+	width: 320px;
+	height: 42px;
+}
+#message {
+	margin: 10px 10px 10px 10px;
+	border-width: 1px;
+	border-color:  #555555;
+	border-style: solid;
+	width: 662px;
+	height: 102px;
+}
+.latest_works_row div {
+	height: 300px;
+}
+.container-fluid {
+	background-color: white;
+	width: 500px;
+}
+
+.navbar-header {
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+}
+.navbar-default {
+	background-color: white;
+}
+.latest_works_img {
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.latest_works_img:hover {
+	-webkit-box-shadow: 10px 10px 31px 6px rgba(222,99,33,1);
+-moz-box-shadow: 10px 10px 31px 6px rgba(222,99,33,1);
+box-shadow: 10px 10px 31px 6px rgba(222,99,33,1);
+Copy Text
+}
+.social {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	width: 124px;
+	margin: 0 auto;
+}
+.icon-facebook,
+.icon-twitter,
+.icon-twitter-bird,
+.icon-vimeo {
+	font-size: 20px;
+	color: white;
+}
+.footer_sturtup_designed {
+	padding: 15% 0;
+	text-align: center;
+	color: white;
+}
+.footer_sturtup {
+	padding: 5% 0;
+}
